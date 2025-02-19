@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import express, { Request, Response } from 'express';
 import { createProxyMiddleware, Options } from 'http-proxy-middleware';
 import * as cheerio from 'cheerio';
